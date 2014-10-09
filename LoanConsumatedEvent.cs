@@ -4,7 +4,7 @@ namespace MediaLoanLibrary.Loans.PublicEvents
 {
     public interface LoanConsumatedEvent
     {
-        int LoanId { get; set; }
+        Guid LoanId { get; set; }
         DateTime DueDate { get; set; }
     }
 }
